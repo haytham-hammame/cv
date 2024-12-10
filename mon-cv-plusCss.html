@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Hammame Haytham</title>
+    <meta name="description" content="CV professionnel de Hammame Haytham">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0066cc, #003366);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 20px;
+        }
+
+        /* Layout */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+        }
+
+        aside {
+            width: 30%;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .content {
+            width: 70%;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        /* Sidebar Details */
+        aside dl {
+            margin-bottom: 20px;
+        }
+
+        aside dt {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #0066cc;
+        }
+
+        aside dd {
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        aside .langues dd {
+            margin-left: 0;
+        }
+
+        /* Main Content */
+        .content ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content li {
+            margin-bottom: 15px;
+        }
+
+        .content span {
+            display: block;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #66b3ff;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+        /* Images */
+        img {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        /* Utility Classes */
+        .text-gray {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hammame Haytham</h1>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside>
+            <dl class="cordonnées">
+                <dt>Email:</dt>
+                <dd>haytamhammame@gmail.com</dd>
+                <dt>Adresse:</dt>
+                <dd>13003 Marseille, France</dd>
+                <dt>Téléphone:</dt>
+                <dd>0621909475</dd>
+            </dl>
+            <dl class="langues">
+                <dt>Langues</dt>
+                <dd>Français</dd>
+                <dd>Anglais</dd>
+                <dd>Espagnol</dd>
+            </dl>
+            <dl class="compétences">
+                <dt>Compétences Techniques</dt>
+                <dd><img src="images/python.png" alt="Python" width="24" height="24"> Python</dd>
+                <dd><img src="images/html.png" alt="HTML" width="24" height="24"> HTML</dd>
+                <dd><img src="images/css.png" alt="CSS" width="24" height="24"> CSS</dd>
+            </dl>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="content">
+            <section>
+                <h2>Diplômes et Formations</h2>
+                <ul>
+                    <li>
+                        <strong>1ère année Bachelor à l'école LA PLATEFORME</strong>
+                        <span>De 2024 à 2025 (en cours)</span>
+                    </li>
+                    <li>
+                        <strong>2ème année à l'Ecole Supérieure de Technologie</strong>
+                        <span>De 2020 à 2021, Laayoune, Maroc<br>Filière : Génie Informatique<br>Mention : Bien</span>
+                    </li>
+                    <li>
+                        <strong>1ère année à l'Ecole Supérieure de Technologie</strong>
+                        <span>De 2019 à 2020, Laayoune, Maroc<br>Filière : Génie Informatique<br>Mention : Très
+                            Bien</span>
+                    </li>
+                    <li>
+                        <strong>Baccalauréat : International (section française) Scientifique</strong>
+                        <span>De 2018 à 2019, Complexe Pédagogique AL AMINE, Maroc<br>Mention : Très Bien</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Expériences Professionnelles</h2>
+                <ul>
+                    <li>
+                        <strong>Stage immersion et insertion professionnelle en informatique</strong>
+                        <span>Juin 2021, WEB SERVICES SAHARA, Maroc<br>Création d'affiches publicitaires et d'un réseau
+                            privé pour le partage de fichiers.</span>
+                    </li>
+                    <li>
+                        <strong>Stage immersion et insertion professionnelle en informatique</strong>
+                        <span>Juin 2020, EST Laayoune, Maroc<br>Création d'un site web pour l'établissement.</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="https://github.com/haytham-hammame/git-begins.git" target="_blank">Mon Github</a></p>
+        <p><a href="cv.pdf" target="_blank" download="Mon_CV.pdf">Télécharger le CV en PDF</a></p>
+    </footer>
+</body>
+
+</html>
